@@ -1,0 +1,48 @@
+/* segment *****custom variables***** */
+:root {
+  /* ***primary colors*** */
+  --intro-and-email-sign-up-bg: hsl(217, 28%, 15%);
+  --main-bg: hsl(218, 28%, 13%);
+  --footer-bg: hsl(216, 53%, 9%);
+  --testimonials-bg: hsl(219, 30%, 18%);
+  /* ***accent colors*** */
+  --inside-call-to-action-gradient: linear-gradient(
+    hsl(176, 68%, 64%),
+    hsl(198, 60%, 50%)
+  );
+  --error: hsl(0, 100%, 63%);
+  /* neutral colors*** */
+  --white: hsl(0, 0%, 100%);
+  /* ***fonts*** */
+  --headings-and-cta-font: "Raleway", sans-serif;
+  --body-font: "Open Sans", sans-serif;
+}
+
+/* segment *****general styles***** */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: var(--main-bg);
+  color: var(--white);
+  font-family: var(--body-font);
+  font-size: 14px;
+}
+
+img {
+  max-width: 100%;
+}
+
+a:link {
+  color: var(--white);
+  text-decoration: none;
+}
+
+/* *****footer***** */
+.social-media-icon {
+  width: 16px;
+  height: 16px;
+}
